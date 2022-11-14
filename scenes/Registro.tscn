@@ -1,0 +1,313 @@
+[gd_scene format=2]
+
+[node name="Registro" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="MainContainer" type="VBoxContainer" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 20.0
+margin_top = 20.0
+margin_right = -20.0
+margin_bottom = -20.0
+
+[node name="InfoContainer" type="VBoxContainer" parent="MainContainer"]
+margin_right = 320.0
+margin_bottom = 397.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="Puntaje" type="Label" parent="MainContainer/InfoContainer"]
+margin_right = 320.0
+margin_bottom = 129.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "Tu puntaje fue de 000"
+align = 1
+valign = 1
+
+[node name="Pregunta" type="Label" parent="MainContainer/InfoContainer"]
+margin_top = 133.0
+margin_right = 320.0
+margin_bottom = 263.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "¿Cual es tu nombre?"
+align = 1
+valign = 1
+
+[node name="Nombre" type="Label" parent="MainContainer/InfoContainer"]
+margin_top = 267.0
+margin_right = 320.0
+margin_bottom = 397.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "___"
+align = 1
+valign = 1
+
+[node name="Teclado" type="GridContainer" parent="MainContainer"]
+margin_top = 401.0
+margin_right = 320.0
+margin_bottom = 600.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+size_flags_stretch_ratio = 0.5
+columns = 10
+
+[node name="T1" type="Button" parent="MainContainer/Teclado"]
+margin_right = 29.0
+margin_bottom = 64.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "Q"
+
+[node name="T2" type="Button" parent="MainContainer/Teclado"]
+margin_left = 33.0
+margin_right = 62.0
+margin_bottom = 64.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "W"
+
+[node name="T3" type="Button" parent="MainContainer/Teclado"]
+margin_left = 66.0
+margin_right = 95.0
+margin_bottom = 64.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "E"
+
+[node name="T4" type="Button" parent="MainContainer/Teclado"]
+margin_left = 99.0
+margin_right = 128.0
+margin_bottom = 64.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "R"
+
+[node name="T5" type="Button" parent="MainContainer/Teclado"]
+margin_left = 132.0
+margin_right = 160.0
+margin_bottom = 64.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "T"
+
+[node name="T6" type="Button" parent="MainContainer/Teclado"]
+margin_left = 164.0
+margin_right = 192.0
+margin_bottom = 64.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "Y"
+
+[node name="T7" type="Button" parent="MainContainer/Teclado"]
+margin_left = 196.0
+margin_right = 224.0
+margin_bottom = 64.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "U"
+
+[node name="T8" type="Button" parent="MainContainer/Teclado"]
+margin_left = 228.0
+margin_right = 256.0
+margin_bottom = 64.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "I"
+
+[node name="T9" type="Button" parent="MainContainer/Teclado"]
+margin_left = 260.0
+margin_right = 288.0
+margin_bottom = 64.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "O"
+
+[node name="T10" type="Button" parent="MainContainer/Teclado"]
+margin_left = 292.0
+margin_right = 320.0
+margin_bottom = 64.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "P"
+
+[node name="T11" type="Button" parent="MainContainer/Teclado"]
+margin_top = 68.0
+margin_right = 29.0
+margin_bottom = 132.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "A"
+
+[node name="T12" type="Button" parent="MainContainer/Teclado"]
+margin_left = 33.0
+margin_top = 68.0
+margin_right = 62.0
+margin_bottom = 132.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "S"
+
+[node name="T13" type="Button" parent="MainContainer/Teclado"]
+margin_left = 66.0
+margin_top = 68.0
+margin_right = 95.0
+margin_bottom = 132.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "D"
+
+[node name="T14" type="Button" parent="MainContainer/Teclado"]
+margin_left = 99.0
+margin_top = 68.0
+margin_right = 128.0
+margin_bottom = 132.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "F"
+
+[node name="T15" type="Button" parent="MainContainer/Teclado"]
+margin_left = 132.0
+margin_top = 68.0
+margin_right = 160.0
+margin_bottom = 132.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "G"
+
+[node name="T16" type="Button" parent="MainContainer/Teclado"]
+margin_left = 164.0
+margin_top = 68.0
+margin_right = 192.0
+margin_bottom = 132.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "H"
+
+[node name="T17" type="Button" parent="MainContainer/Teclado"]
+margin_left = 196.0
+margin_top = 68.0
+margin_right = 224.0
+margin_bottom = 132.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "j"
+
+[node name="T18" type="Button" parent="MainContainer/Teclado"]
+margin_left = 228.0
+margin_top = 68.0
+margin_right = 256.0
+margin_bottom = 132.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "K"
+
+[node name="T19" type="Button" parent="MainContainer/Teclado"]
+margin_left = 260.0
+margin_top = 68.0
+margin_right = 288.0
+margin_bottom = 132.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "L"
+
+[node name="T20" type="Button" parent="MainContainer/Teclado"]
+margin_left = 292.0
+margin_top = 68.0
+margin_right = 320.0
+margin_bottom = 132.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "Ñ"
+
+[node name="TEm1" type="Button" parent="MainContainer/Teclado"]
+margin_top = 136.0
+margin_right = 29.0
+margin_bottom = 199.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+flat = true
+
+[node name="T21" type="Button" parent="MainContainer/Teclado"]
+margin_left = 33.0
+margin_top = 136.0
+margin_right = 62.0
+margin_bottom = 199.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "Z"
+
+[node name="T22" type="Button" parent="MainContainer/Teclado"]
+margin_left = 66.0
+margin_top = 136.0
+margin_right = 95.0
+margin_bottom = 199.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "X"
+
+[node name="T23" type="Button" parent="MainContainer/Teclado"]
+margin_left = 99.0
+margin_top = 136.0
+margin_right = 128.0
+margin_bottom = 199.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "C"
+
+[node name="T24" type="Button" parent="MainContainer/Teclado"]
+margin_left = 132.0
+margin_top = 136.0
+margin_right = 160.0
+margin_bottom = 199.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "V"
+
+[node name="T25" type="Button" parent="MainContainer/Teclado"]
+margin_left = 164.0
+margin_top = 136.0
+margin_right = 192.0
+margin_bottom = 199.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "B"
+
+[node name="T26" type="Button" parent="MainContainer/Teclado"]
+margin_left = 196.0
+margin_top = 136.0
+margin_right = 224.0
+margin_bottom = 199.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "N"
+
+[node name="T27" type="Button" parent="MainContainer/Teclado"]
+margin_left = 228.0
+margin_top = 136.0
+margin_right = 256.0
+margin_bottom = 199.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "M"
+
+[node name="TD" type="Button" parent="MainContainer/Teclado"]
+margin_left = 260.0
+margin_top = 136.0
+margin_right = 288.0
+margin_bottom = 199.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "<|"
+
+[node name="TI" type="Button" parent="MainContainer/Teclado"]
+margin_left = 292.0
+margin_top = 136.0
+margin_right = 320.0
+margin_bottom = 199.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
