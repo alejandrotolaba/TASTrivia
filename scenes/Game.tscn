@@ -53,6 +53,7 @@ size_flags_vertical = 3
 text = "¿Pregunta?"
 align = 1
 valign = 1
+autowrap = true
 
 [node name="Opciones" type="VBoxContainer" parent="VBoxContainer"]
 margin_top = 323.0

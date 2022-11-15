@@ -36,10 +36,26 @@ func mostrar_pregunta():
 			break
 	
 	$VBoxContainer/Pregunta.text = preguntas[pregunta_actual]["pregunta"]
-	$VBoxContainer/Opciones/Op1.text = preguntas[pregunta_actual]["opciones"][0]
-	$VBoxContainer/Opciones/Op2.text = preguntas[pregunta_actual]["opciones"][1]
-	$VBoxContainer/Opciones/Op3.text = preguntas[pregunta_actual]["opciones"][2]
-	$VBoxContainer/Opciones/Op4.text = preguntas[pregunta_actual]["opciones"][3]
+	
+	# Aleatorizar las opciones de respuesta
+	var orden_opciones = []
+	var aux = -1
+
+	for i in range(4):
+		var b = true
+		while b:
+			if not(aux in orden_opciones) and (aux > -1):
+				orden_opciones.append(aux)
+				b = false
+			aux = randi() % 4
+	
+	print("Opciones")
+	print(orden_opciones)
+	
+	$VBoxContainer/Opciones/Op1.text = preguntas[pregunta_actual]["opciones"][orden_opciones[0]]
+	$VBoxContainer/Opciones/Op2.text = preguntas[pregunta_actual]["opciones"][orden_opciones[1]]
+	$VBoxContainer/Opciones/Op3.text = preguntas[pregunta_actual]["opciones"][orden_opciones[2]]
+	$VBoxContainer/Opciones/Op4.text = preguntas[pregunta_actual]["opciones"][orden_opciones[3]]
 	
 	preguntas_hechas.append(pregunta_actual)
 	
