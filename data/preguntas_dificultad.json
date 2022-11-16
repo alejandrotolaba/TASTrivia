@@ -1,0 +1,139 @@
+{
+	"FACIL":
+	[
+		{
+			"pregunta": "¿Qué significa Wi-Fi?",
+			"opciones": ["Wireless fidelity", "Wiggly fibres", "wireless fings", "windex fiding"]
+		},
+		{
+			"pregunta": "¿Para qué sirve la Papelera de Reciclaje?",
+			"opciones": ["Para recuperar archivos borrados", "Para almacenar archivos temporales", "Para limpiar el sistema operativo", "Para hacer una limpieza del disco duro en una fecha programada"]
+		},
+		{
+			"pregunta": "¿Qué atajo de teclas usamos para cerrar una ventana en Windows?",
+			"opciones": ["Alt + F4", "Shift + F4", "Crtl + F4", "Ctrl + S"]
+		},
+		{
+			"pregunta": "¿Cuál de los siguientes periféricos es de entrada/salida?",
+			"opciones": ["Módem de Internet", "Teclado", "Impresora", "Escáner"]
+		},
+		{
+			"pregunta": "¿Qué dispositivo se uti liza para la digitalización de imágenes y  texto?",
+			"opciones": ["Escáner", "Joystick.", "Módem.", "Pantallas táctiles"]
+		},
+		{
+			"pregunta": "¿Como se llaman los puntos que componen la imagen de una fotografía digital?",
+			"opciones": ["Píxeles", "Puntos de resolución", "Puntos digitales", "puntos de color"]
+		},
+		{
+			"pregunta": "¿Qué es Windows?",
+			"opciones": ["Un sistema operativo", "Un editor de Imágenes", "Un utilitario", "Un Disco Rígido"]
+		},
+		{
+			"pregunta": "¿Que teclas de acceso rapido usamos para copiar un texto?",
+			"opciones": ["CTRL+C", "CTRL+V", "ALT+C", "SHIFT+V"]
+		},
+		{
+			"pregunta": "¿Cuál de los siguientes comandos o atajos de teclado puede utilizarse para cambiar a mayúsculas o minúsculas?",
+			"opciones": ["SHIFT + F3", "CONTROL+SHIFT+F3", "ALT + F3", "ALT+SHIFT+F3"]
+		},
+		{
+			"pregunta": "¿Cuál de estos sistemas operativos nunca vio la luz?",
+			"opciones": ["Windows 9", "10Q4OS 3", "BeOS", "Peppermint"]
+		},
+		{
+			"pregunta": "¿Como se  llama un conjunto de 8 bits?",
+			"opciones": ["byte", "butt", "byttes", "bitys"]
+		},
+		{
+			"pregunta": "¿Como se llama la parte fisica de un ordenador?",
+			"opciones": ["hardware", "flimaware", "software", "adware"]
+		},
+		{
+			"pregunta": "¿Cuál de los siguientes elementos forma parte del hardware de un computador?",
+			"opciones": ["teclado", "programas", "Sistema operativo", "archivos"]
+		},
+		{
+			"pregunta": "Si quieres participar en una clase virtual, ¿qué periféricos debes tener conectados a tu computador?",
+			"opciones": ["microfono-camara", "impresora", "Unidad DVD-ROM", "USB"]
+		}
+	],
+	"MEDIO":
+	[
+		{
+			"pregunta": "¿Qué herramienta de Windows es ideal para transferir tus archivos a otro equipo?",
+			"opciones": ["windows easy transfer", "windows  defender", "centro de ayuda", "Restaurar a un punto anterior"]
+		},
+		{
+			"pregunta": "¿Qué es el Spam?",
+			"opciones": ["Es el envío de correo no solicitado", "Es un programa espía", "Es una marca de ordenador", "Es un virus informático"]
+		},
+		{
+			"pregunta": "¿Qué caracteristica básica diferencia al CD del DVD?",
+			"opciones": ["Capacidad", "Tamaño", "Velocidad", "Uno es para video y otro para música"]
+		},
+		{
+			"pregunta": "¿cuál se puede catalogar como un dispositivo “wearable”?",
+			"opciones": ["reloj inteligete", "reproductor de musica", "consola de videojuegos", "Computador portatil"]
+		},
+		{
+			"pregunta": "¿Qué significa encriptar?",
+			"opciones": ["Significa proteger archivos expresando su contenido en un lenguaje cifrado", "Significa guardar los archivos comprimidos para que ocupen menos espacio", "Significa realizar copias de seguridad de archivos en tamaño reducido", "Significa guardar un archivo en la nube"]
+		},
+		{
+			"pregunta": "¿Qué necesitas para que tu computador realice varias tareas a la vez de de manera veloz?",
+			"opciones": ["opcion 1", "opcion 2", "opcion 3", "opcion 4"]
+		},
+		{
+			"pregunta": "¿Pegunta 2?",
+			"opciones": ["memoria RAM", "fuente de poder", "pantalla", "unidad de disco duro"]
+		},
+		{
+			"pregunta": "Para mejorar el rendimiento de tu computador al ejecutar un videojuego, debes instalar una tarjeta de:",
+			"opciones": ["tarjeta de video o grafica", "tarjeta de audio", "tarjeta de red", "tarjeta bluetooth"]
+		},
+		{
+			"pregunta": "Organizar, almacenar y transformar los datos en un ordenador¿qué componente lo realiza?",
+			"opciones": ["El microprocesador", "el disco duro", "la placa madre", "la tarjeta grafica"]
+		},
+		{
+			"pregunta": "Memoria donde esta guardada la configuracion de arranque",
+			"opciones": ["CMOS", "RAM", "BIOS", "CACHE"]
+		},
+		{
+			"pregunta": "¿Qué sustancia se coloca en la parte externa del procesador para evitar que se sobrecaliente durante su funcionamiento?",
+			"opciones": ["Pasta térmica", "Soluto de yodo", "Nitrógeno líquido", "Silicon liquido"]
+		},
+		{
+			"pregunta": "¿Y qué significa Mhz?",
+			"opciones": ["Megahercios", "Microhercios", "Millihercios", "Macrohercios"]
+		},
+		{
+			"pregunta": "¿En que año se anuncio la primera unidad de disco duro de 1 GB?",
+			"opciones": ["1999", "1977", "1980", "1985"]
+		},
+		{
+			"pregunta": "¿Cuál de estos elementos es responsable de la administración y coordinación de actividades y la división de recursos del ordenador?",
+			"opciones": ["Sistema operativo", "RAM", "Placa base", "El microprocesador"]
+		},
+		{
+			"pregunta": "¿A quién le debemos el diseño del primer ratón para ordenador?",
+			"opciones": ["Douglas Engelbart", "Charles Babbage", "Konrad Zus", "evan andriw"]
+		},
+		{
+			"pregunta": "¿¿Cuál fue el primer navegador de la historia??",
+			"opciones": ["World Wide Web", "Netscape Navigator", "Internet Explorer", "firefox"]
+		}
+	],
+	"DIFICIL":
+	[
+		{
+			"pregunta": "¿En qué año se desarrolló el lenguaje de programación C?",
+			"opciones": ["1972", "1969", "1968", "1970"]
+		},
+		{
+			"pregunta": "¿Como se llama el medio de codificación de texto en el que cada símbolo está representado por 16 bits?",
+			"opciones": ["UNICODE", "ASCII", "LZW", "STCOD"]
+		},
+	]
+}
