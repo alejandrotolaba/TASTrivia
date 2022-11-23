@@ -68,6 +68,7 @@ margin_right = 320.0
 margin_bottom = 39.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
+clip_text = true
 
 [node name="Op2" type="Button" parent="VBoxContainer/Opciones"]
 margin_top = 79.0
@@ -75,6 +76,7 @@ margin_right = 320.0
 margin_bottom = 118.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
+clip_text = true
 
 [node name="Op3" type="Button" parent="VBoxContainer/Opciones"]
 margin_top = 158.0
@@ -82,6 +84,7 @@ margin_right = 320.0
 margin_bottom = 197.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
+clip_text = true
 
 [node name="Op4" type="Button" parent="VBoxContainer/Opciones"]
 margin_top = 237.0
@@ -89,9 +92,14 @@ margin_right = 320.0
 margin_bottom = 277.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
+clip_text = true
+
+[node name="Sleeper" type="Timer" parent="."]
+one_shot = true
 
 [connection signal="pressed" from="VBoxContainer/TopContainer/BVolver" to="." method="_on_BVolver_pressed"]
 [connection signal="pressed" from="VBoxContainer/Opciones/Op1" to="." method="_on_Option_pressed" binds= [ 0 ]]
 [connection signal="pressed" from="VBoxContainer/Opciones/Op2" to="." method="_on_Option_pressed" binds= [ 1 ]]
 [connection signal="pressed" from="VBoxContainer/Opciones/Op3" to="." method="_on_Option_pressed" binds= [ 2 ]]
 [connection signal="pressed" from="VBoxContainer/Opciones/Op4" to="." method="_on_Option_pressed" binds= [ 3 ]]
+[connection signal="timeout" from="Sleeper" to="." method="_on_Sleeper_timeout"]

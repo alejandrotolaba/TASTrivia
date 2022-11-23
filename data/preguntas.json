@@ -1,62 +1,82 @@
 [
 	{
-		"pregunta": "¿Pegunta 1?",
-		"opciones": ["opcion 1", "opcion 2", "opcion 3", "opcion 4"]
+		"pregunta": "¿Qué significa Wi-Fi?",
+		"opciones": ["Wireless fidelity", "Wiggly fibres", "wireless fings", "windex fiding"]
 	},
 	{
-		"pregunta": "¿Pegunta 2?",
-		"opciones": ["opcion 1", "opcion 2", "opcion 3", "opcion 4"]
+		"pregunta": "¿Para qué sirve la Papelera de Reciclaje?",
+		"opciones": ["Para recuperar archivos borrados", "Para almacenar archivos temporales", "Para limpiar el sistema operativo", "Para hacer una limpieza del disco duro en una fecha programada"]
 	},
 	{
-		"pregunta": "¿Pegunta 3?",
-		"opciones": ["opcion 1", "opcion 2", "opcion 3", "opcion 4"]
+		"pregunta": "¿Qué atajo de teclas usamos para cerrar una ventana en Windows?",
+		"opciones": ["Alt + F4", "Shift + F4", "Crtl + F4", "Ctrl + S"]
 	},
 	{
-		"pregunta": "¿Pegunta 4?",
-		"opciones": ["opcion 1", "opcion 2", "opcion 3", "opcion 4"]
+		"pregunta": "¿Cuál de los siguientes es un periferico de entrada/salida?",
+		"opciones": ["Módem de Internet", "Teclado", "Impresora", "Escáner"]
 	},
 	{
-		"pregunta": "¿Pegunta 5?",
-		"opciones": ["opcion 1", "opcion 2", "opcion 3", "opcion 4"]
+		"pregunta": "¿Cuál de los siguientes es un periférico de entrada?",
+		"opciones": ["Teclado", "Monitor", "Parlante", "Impresora"]
 	},
 	{
-		"pregunta": "¿Pegunta 6?",
-		"opciones": ["opcion 1", "opcion 2", "opcion 3", "opcion 4"]
+		"pregunta": "¿Cuál de los siguientes es un periférico de entrada?",
+		"opciones": ["Mouse", "Monitor", "Parlante", "Impresora"]
 	},
 	{
-		"pregunta": "¿Pegunta 7?",
-		"opciones": ["opcion 1", "opcion 2", "opcion 3", "opcion 4"]
+		"pregunta": "¿Cuál de los siguientes es un periférico de entrada?",
+		"opciones": ["Microfono", "Monitor", "Parlante", "Impresora"]
 	},
 	{
-		"pregunta": "¿Pegunta 8?",
-		"opciones": ["opcion 1", "opcion 2", "opcion 3", "opcion 4"]
+		"pregunta": "¿Cuál de los siguientes es un periférico de salida?",
+		"opciones": ["Monitor", "Teclado", "Mouse", "Joypad"]
 	},
 	{
-		"pregunta": "¿Pegunta 9?",
-		"opciones": ["opcion 1", "opcion 2", "opcion 3", "opcion 4"]
+		"pregunta": "¿Cuál de los siguientes es un periférico de salida?",
+		"opciones": ["Parlante", "Teclado", "Mouse", "Joypad"]
 	},
 	{
-		"pregunta": "¿Pegunta 0?",
-		"opciones": ["opcion 1", "opcion 2", "opcion 3", "opcion 4"]
+		"pregunta": "¿Cuál de los siguientes es un periférico de salida?",
+		"opciones": ["Impresora", "Teclado", "Mouse", "Joypad"]
 	},
 	{
-		"pregunta": "¿Pegunta 10?",
-		"opciones": ["opcion 1", "opcion 2", "opcion 3", "opcion 4"]
+		"pregunta": "¿Qué dispositivo se utiliza para la digitalización de imágenes y texto?",
+		"opciones": ["Escáner", "Joystick.", "Módem.", "Pantallas táctiles"]
 	},
 	{
-		"pregunta": "¿Pegunta 11?",
-		"opciones": ["opcion 1", "opcion 2", "opcion 3", "opcion 4"]
+		"pregunta": "¿Como se llaman los puntos que componen la imagen de una fotografía digital?",
+		"opciones": ["Píxeles", "Puntos de resolución", "Puntos digitales", "Voxeles"]
 	},
 	{
-		"pregunta": "¿Pegunta 12?",
-		"opciones": ["opcion 1", "opcion 2", "opcion 3", "opcion 4"]
+		"pregunta": "¿Qué es Windows?",
+		"opciones": ["Un sistema operativo", "Un editor de Imágenes", "Un utilitario", "Un Disco Rígido"]
 	},
 	{
-		"pregunta": "¿Pegunta 13?",
-		"opciones": ["opcion 1", "opcion 2", "opcion 3", "opcion 4"]
+		"pregunta": "¿Que teclas de acceso rapido usamos para copiar un texto?",
+		"opciones": ["CTRL+C", "CTRL+V", "ALT+C", "SHIFT+V"]
 	},
 	{
-		"pregunta": "¿Pegunta 14?",
-		"opciones": ["opcion 1", "opcion 2", "opcion 3", "opcion 4"]
+		"pregunta": "¿Cuál de los siguientes comandos o atajos de teclado puede utilizarse para cambiar a mayúsculas o minúsculas?",
+		"opciones": ["SHIFT + F3", "CONTROL+SHIFT+F3", "ALT + F3", "ALT+SHIFT+F3"]
+	},
+	{
+		"pregunta": "¿Cuál de estos sistemas operativos nunca vio la luz?",
+		"opciones": ["Windows 9", "10Q4OS 3", "BeOS", "Peppermint"]
+	},
+	{
+		"pregunta": "¿Como se  llama un conjunto de 8 bits?",
+		"opciones": ["byte", "butt", "byttes", "bitys"]
+	},
+	{
+		"pregunta": "¿Como se llama la parte fisica de un ordenador?",
+		"opciones": ["Hardware", "Firmaware", "Software", "Adware"]
+	},
+	{
+		"pregunta": "¿Cuál de los siguientes elementos forma parte del hardware de un computador?",
+		"opciones": ["Teclado", "Programas", "Sistema Operativo", "Archivos"]
+	},
+	{
+		"pregunta": "Si quieres participar en una clase virtual, ¿qué periféricos debes tener conectados a tu computador?",
+		"opciones": ["Microfono-Camara", "Impresora", "Unidad DVD-ROM", "USB"]
 	}
 ]
