@@ -14,3 +14,8 @@ func _ready():
 func _on_BJugar_pressed():
 # warning-ignore:return_value_discarded
 	get_tree().change_scene("res://scenes/Game.tscn")
+
+
+func _on_BInfo_pressed():
+# warning-ignore:return_value_discarded
+	get_tree().change_scene("res://scenes/Info.tscn")

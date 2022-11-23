@@ -1,0 +1,97 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://scripts/Info.gd" type="Script" id=1]
+
+[node name="Info" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 1 )
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 20.0
+margin_top = 20.0
+margin_right = -20.0
+margin_bottom = -20.0
+custom_constants/separation = 20
+
+[node name="Label" type="Label" parent="VBoxContainer"]
+margin_right = 320.0
+margin_bottom = 14.0
+text = "TAS Trivia"
+align = 1
+valign = 1
+
+[node name="RichTextLabel" type="RichTextLabel" parent="VBoxContainer"]
+margin_top = 34.0
+margin_right = 320.0
+margin_bottom = 560.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+bbcode_enabled = true
+bbcode_text = "[center]
+Juego creado por alumnos de 1° Año de la Tecnicatura Superior En Análisis de Sistemas (S.D. Coronel Moldes - Salta)
+
+[color=#888]
+\\== .\\m/  ==/
+[/color]
+
+Programacion y diseño:
+[color=#0a0]Alejandro Tolaba[/color]
+
+Preguntas:
+[color=#0a0]Fabiola Guerrero
+Nahuel Apaza[/color]
+
+Ilustraciones:
+[color=#0a0]Fabiola Guerrero
+Melina Chaile[/color]
+
+[color=#888]
+\\== .\\m/  ==/
+[/color]
+
+Puedes encontrar el proyecto en GitHub:
+[color=#0a0]
+[url=https://github.com/Dks32/TASTrivia]TASTrivia[/url]
+[/color]
+
+[/center]"
+text = "
+Juego creado por alumnos de 1° Año de la Tecnicatura Superior En Análisis de Sistemas (S.D. Coronel Moldes - Salta)
+
+
+\\== .\\m/  ==/
+
+
+Programacion y diseño:
+Alejandro Tolaba
+
+Preguntas:
+Fabiola Guerrero
+Nahuel Apaza
+
+Ilustraciones:
+Fabiola Guerrero
+Melina Chaile
+
+
+\\== .\\m/  ==/
+
+
+Puedes encontrar el proyecto en GitHub:
+
+TASTrivia
+
+
+"
+
+[node name="Button" type="Button" parent="VBoxContainer"]
+margin_top = 580.0
+margin_right = 320.0
+margin_bottom = 600.0
+text = "Volver"
+
+[connection signal="meta_clicked" from="VBoxContainer/RichTextLabel" to="." method="_on_RichTextLabel_meta_clicked"]
+[connection signal="pressed" from="VBoxContainer/Button" to="." method="_on_Button_pressed"]
