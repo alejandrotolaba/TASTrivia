@@ -13,6 +13,7 @@ func mostrar_pregunta():
 	
 	# Sortear pregunta
 	while true:
+#		print("Sorteo pregunta")
 		Manejador.pregunta_actual = rng.randi() % len(Manejador.preguntas)
 		
 		# Solo elegir preguntas no realizadas anteriormente
@@ -29,6 +30,7 @@ func mostrar_pregunta():
 	for _i in range(4):
 		var b = true
 		while b:
+#			print("Sorteo opciones")
 			if not(aux in orden_opciones) and (aux > -1):
 				orden_opciones.append(aux)
 				b = false
@@ -56,8 +58,11 @@ func _ready():
 	
 	Manejador.last_score = 0
 	actualizar_puntaje()
+	
+	Manejador.pregunta_actual = 0
+	Manejador.preguntas_hechas = []
 
-	Manejador.cargar_preguntas()
+	Manejador.cargar_preguntas(Manejador.categoria)
 	
 	if Manejador.preguntas == []:
 		print("No hay preguntas!")
@@ -94,11 +99,10 @@ func _on_Option_pressed(option):
 	
 	actualizar_puntaje(sumapuntos)
 	
-	if len(Manejador.preguntas_hechas) == Manejador.total_preguntas:
+	if len(Manejador.preguntas_hechas) >= Manejador.total_preguntas:
 		print("Fin del juego")
-# warning-ignore:return_value_discarded
+		# warning-ignore:return_value_discarded
 		get_tree().change_scene("res://scenes/FinJuego.tscn")
-
 	
 	mostrar_pregunta()
 

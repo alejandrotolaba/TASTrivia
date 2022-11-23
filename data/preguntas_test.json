@@ -1,62 +1,107 @@
-[
-	{
-		"pregunta": "¿Pegunta 1?",
-		"opciones": ["opcion 1", "opcion 2", "opcion 3", "opcion 4"]
-	},
-	{
-		"pregunta": "¿Pegunta 2?",
-		"opciones": ["opcion 1", "opcion 2", "opcion 3", "opcion 4"]
-	},
-	{
-		"pregunta": "¿Pegunta 3?",
-		"opciones": ["opcion 1", "opcion 2", "opcion 3", "opcion 4"]
-	},
-	{
-		"pregunta": "¿Pegunta 4?",
-		"opciones": ["opcion 1", "opcion 2", "opcion 3", "opcion 4"]
-	},
-	{
-		"pregunta": "¿Pegunta 5?",
-		"opciones": ["opcion 1", "opcion 2", "opcion 3", "opcion 4"]
-	},
-	{
-		"pregunta": "¿Pegunta 6?",
-		"opciones": ["opcion 1", "opcion 2", "opcion 3", "opcion 4"]
-	},
-	{
-		"pregunta": "¿Pegunta 7?",
-		"opciones": ["opcion 1", "opcion 2", "opcion 3", "opcion 4"]
-	},
-	{
-		"pregunta": "¿Pegunta 8?",
-		"opciones": ["opcion 1", "opcion 2", "opcion 3", "opcion 4"]
-	},
-	{
-		"pregunta": "¿Pegunta 9?",
-		"opciones": ["opcion 1", "opcion 2", "opcion 3", "opcion 4"]
-	},
-	{
-		"pregunta": "¿Pegunta 0?",
-		"opciones": ["opcion 1", "opcion 2", "opcion 3", "opcion 4"]
-	},
-	{
-		"pregunta": "¿Pegunta 10?",
-		"opciones": ["opcion 1", "opcion 2", "opcion 3", "opcion 4"]
-	},
-	{
-		"pregunta": "¿Pegunta 11?",
-		"opciones": ["opcion 1", "opcion 2", "opcion 3", "opcion 4"]
-	},
-	{
-		"pregunta": "¿Pegunta 12?",
-		"opciones": ["opcion 1", "opcion 2", "opcion 3", "opcion 4"]
-	},
-	{
-		"pregunta": "¿Pegunta 13?",
-		"opciones": ["opcion 1", "opcion 2", "opcion 3", "opcion 4"]
-	},
-	{
-		"pregunta": "¿Pegunta 14?",
-		"opciones": ["opcion 1", "opcion 2", "opcion 3", "opcion 4"]
-	}
-]
+{
+	"Facil":
+	[
+		{
+			"pregunta": "F0",
+			"opciones": ["o1", "o2", "o3", "o4"]
+		},
+		{
+			"pregunta": "F1",
+			"opciones": ["o1", "o2", "o3", "o4"]
+		},
+		{
+			"pregunta": "F2",
+			"opciones": ["o1", "o2", "o3", "o4"]
+		},
+		{
+			"pregunta": "F3",
+			"opciones": ["o1", "o2", "o3", "o4"]
+		},
+		{
+			"pregunta": "F4",
+			"opciones": ["o1", "o2", "o3", "o4"]
+		},
+		{
+			"pregunta": "F5",
+			"opciones": ["o1", "o2", "o3", "o4"]
+		},
+		{
+			"pregunta": "F6",
+			"opciones": ["o1", "o2", "o3", "o4"]
+		},
+		{
+			"pregunta": "F7",
+			"opciones": ["o1", "o2", "o3", "o4"]
+		},
+	],
+	"TAS":
+	[
+		{
+			"pregunta": "T0",
+			"opciones": ["o1", "o2", "o3", "o4"]
+		},
+		{
+			"pregunta": "T1",
+			"opciones": ["o1", "o2", "o3", "o4"]
+		},
+		{
+			"pregunta": "T2",
+			"opciones": ["o1", "o2", "o3", "o4"]
+		},
+		{
+			"pregunta": "T3",
+			"opciones": ["o1", "o2", "o3", "o4"]
+		},
+		{
+			"pregunta": "T4",
+			"opciones": ["o1", "o2", "o3", "o4"]
+		},
+		{
+			"pregunta": "T5",
+			"opciones": ["o1", "o2", "o3", "o4"]
+		},
+		{
+			"pregunta": "T6",
+			"opciones": ["o1", "o2", "o3", "o4"]
+		},
+		{
+			"pregunta": "T7",
+			"opciones": ["o1", "o2", "o3", "o4"]
+		},
+	],
+	"Dificil":
+	[
+		{
+			"pregunta": "D0",
+			"opciones": ["o1", "o2", "o3", "o4"]
+		},
+		{
+			"pregunta": "D1",
+			"opciones": ["o1", "o2", "o3", "o4"]
+		},
+		{
+			"pregunta": "D2",
+			"opciones": ["o1", "o2", "o3", "o4"]
+		},
+		{
+			"pregunta": "D3",
+			"opciones": ["o1", "o2", "o3", "o4"]
+		},
+		{
+			"pregunta": "D4",
+			"opciones": ["o1", "o2", "o3", "o4"]
+		},
+		{
+			"pregunta": "D5",
+			"opciones": ["o1", "o2", "o3", "o4"]
+		},
+		{
+			"pregunta": "D6",
+			"opciones": ["o1", "o2", "o3", "o4"]
+		},
+		{
+			"pregunta": "D7",
+			"opciones": ["o1", "o2", "o3", "o4"]
+		},
+	],
+}
