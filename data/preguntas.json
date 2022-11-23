@@ -1,5 +1,9 @@
 [
 	{
+		"pregunta": "¿Que son las TICs?",
+		"opciones": ["Tecnologías de la Informacióny las Comunicaciones", "Todo lo Ilustrado Cambia", "Tecnología informática cambiante", "Teoria Informatica Cuántica"]
+	},
+	{
 		"pregunta": "¿Qué significa Wi-Fi?",
 		"opciones": ["Wireless fidelity", "Wiggly fibres", "wireless fings", "windex fiding"]
 	},

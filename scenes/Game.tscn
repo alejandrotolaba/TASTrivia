@@ -47,7 +47,7 @@ valign = 1
 [node name="Pregunta" type="Label" parent="VBoxContainer"]
 margin_top = 42.0
 margin_right = 320.0
-margin_bottom = 319.0
+margin_bottom = 243.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 text = "¿Pregunta?"
@@ -55,46 +55,49 @@ align = 1
 valign = 1
 autowrap = true
 
-[node name="Opciones" type="VBoxContainer" parent="VBoxContainer"]
-margin_top = 323.0
+[node name="Opciones" type="GridContainer" parent="VBoxContainer"]
+margin_top = 247.0
 margin_right = 320.0
 margin_bottom = 600.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
-custom_constants/separation = 40
+size_flags_stretch_ratio = 1.75
+custom_constants/vseparation = 20
+custom_constants/hseparation = 20
 
 [node name="Op1" type="Button" parent="VBoxContainer/Opciones"]
 margin_right = 320.0
-margin_bottom = 39.0
+margin_bottom = 74.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 clip_text = true
 
 [node name="Op2" type="Button" parent="VBoxContainer/Opciones"]
-margin_top = 79.0
+margin_top = 94.0
 margin_right = 320.0
-margin_bottom = 118.0
+margin_bottom = 167.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 clip_text = true
 
 [node name="Op3" type="Button" parent="VBoxContainer/Opciones"]
-margin_top = 158.0
+margin_top = 187.0
 margin_right = 320.0
-margin_bottom = 197.0
+margin_bottom = 260.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 clip_text = true
 
 [node name="Op4" type="Button" parent="VBoxContainer/Opciones"]
-margin_top = 237.0
+margin_top = 280.0
 margin_right = 320.0
-margin_bottom = 277.0
+margin_bottom = 353.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 clip_text = true
 
 [node name="Sleeper" type="Timer" parent="."]
+wait_time = 0.5
 one_shot = true
 
 [connection signal="pressed" from="VBoxContainer/TopContainer/BVolver" to="." method="_on_BVolver_pressed"]
