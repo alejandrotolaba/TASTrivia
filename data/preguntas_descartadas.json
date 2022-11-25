@@ -1,0 +1,45 @@
+{
+	"DESCARTADOS":
+	[
+		{
+			"pregunta": "¿Qué sustancia se coloca en la parte externa del procesador para evitar que se sobrecaliente durante su funcionamiento?",
+			"opciones": ["Pasta térmica", "Soluto de yodo", "Nitrógeno líquido", "Silicon liquido"]
+		},
+		{
+			"pregunta": "¿que porcentaje de memoria ram es utilizable de 4GB?",
+			"opciones": ["12%", "3%", "60%", "20%"]
+		},
+		{
+			"pregunta": "El computador se encuentra dividido en:",
+			"opciones": ["hardware y software", "parte fisica", "parte logica", "ninguna de las anteriores"]
+		},
+		{
+			"pregunta": "La computadora puede ser mas rápida o mas lenta deacuerdo a:",
+			"opciones": ["La capacidad del disco duro.", "La capacidad de las cables.", "El tamaño del monitor.", "ninguna de las anteriores"]
+		},
+		{
+			"pregunta": "La función del Bus De Datos es:",
+			"opciones": ["permite el intercambio de datos entre la CPU y el resto de unidades.", "Trasportar la energía necesaria para las unidades.", "Almacenar la información permanentemente.", "Almacenar la información temporalmente."]
+		}
+		{
+			"pregunta": "la placa madre es:",
+			"opciones": ["Una tarjeta de circuito impreso que permite la integración de todos los componentes de una computadora", "Un sistema electromecánico de soporte y conexión eléctrica.", "Aquella que controla los dispositivos de almacenamiento de datos.", "la encargada de hacer funcionar los coolers"]
+		},
+		{
+			"pregunta": "La memoria Ram es:",
+			"opciones": ["Es un tipo de memoria temporal que pierde sus datos cuando el computador se queda sin energía", "Es una memoria para arrancar el equipo rapido.", "Aquella que guarda siempre todo lo que se haga en el computador.", "Ninguna de las anteriores."]
+		},
+		{
+			"pregunta": "Los tipos de buses que puede tener una computadora son:",
+			"opciones": ["IDE Y SATA", "USB, COM1 y LPT1", "BTX, WTX Y ETX", "Ninguna de las anteriores."]
+		},
+		{
+			"pregunta": "cuales son los 3 tipos de CPU",
+			"opciones": ["De 1 nucleo, de 2 nucleos y 4 nucleos", "de 1 nucleo, de 3 nucleos de 5 nucleos", "tower, mini tower y desktop", "Ninguna de las anteriores."]
+		},
+		{
+			"pregunta": "¿Que son los jumpers?",
+			"opciones": ["Es un elemento que permite cerrar el circuito eléctrico del que forma parte dos conexiones.", "Es el conjunto de circuito que gobierna el funcionamiento de toda la computadora.", "Es donde podemos ver peliculas y escuchar música. ", "Es un formato de almacenamiento óptico que puede ser usado para guardar datos."]
+		}
+	]
+}

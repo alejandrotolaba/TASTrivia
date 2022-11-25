@@ -1,14 +1,14 @@
 extends Node
 
 
-var archivo_preguntas = "res://data/preguntas_test.json"
+var archivo_preguntas = "res://data/preguntas.json"
 var modo_seleccionado = "Facil"
 var categorias_juego = []
 var categoria = "Facil"
 var last_score = 0
 var high_score = 0
 var preguntas = []
-var total_preguntas = 5
+var total_preguntas = 10
 var preguntas_hechas = []
 var pregunta_actual = -1
 

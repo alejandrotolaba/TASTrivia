@@ -1,86 +1,243 @@
-[
-	{
-		"pregunta": "¿Que son las TICs?",
-		"opciones": ["Tecnologías de la Informacióny las Comunicaciones", "Todo lo Ilustrado Cambia", "Tecnología informática cambiante", "Teoria Informatica Cuántica"]
-	},
-	{
-		"pregunta": "¿Qué significa Wi-Fi?",
-		"opciones": ["Wireless fidelity", "Wiggly fibres", "wireless fings", "windex fiding"]
-	},
-	{
-		"pregunta": "¿Para qué sirve la Papelera de Reciclaje?",
-		"opciones": ["Para recuperar archivos borrados", "Para almacenar archivos temporales", "Para limpiar el sistema operativo", "Para hacer una limpieza del disco duro en una fecha programada"]
-	},
-	{
-		"pregunta": "¿Qué atajo de teclas usamos para cerrar una ventana en Windows?",
-		"opciones": ["Alt + F4", "Shift + F4", "Crtl + F4", "Ctrl + S"]
-	},
-	{
-		"pregunta": "¿Cuál de los siguientes es un periferico de entrada/salida?",
-		"opciones": ["Módem de Internet", "Teclado", "Impresora", "Escáner"]
-	},
-	{
-		"pregunta": "¿Cuál de los siguientes es un periférico de entrada?",
-		"opciones": ["Teclado", "Monitor", "Parlante", "Impresora"]
-	},
-	{
-		"pregunta": "¿Cuál de los siguientes es un periférico de entrada?",
-		"opciones": ["Mouse", "Monitor", "Parlante", "Impresora"]
-	},
-	{
-		"pregunta": "¿Cuál de los siguientes es un periférico de entrada?",
-		"opciones": ["Microfono", "Monitor", "Parlante", "Impresora"]
-	},
-	{
-		"pregunta": "¿Cuál de los siguientes es un periférico de salida?",
-		"opciones": ["Monitor", "Teclado", "Mouse", "Joypad"]
-	},
-	{
-		"pregunta": "¿Cuál de los siguientes es un periférico de salida?",
-		"opciones": ["Parlante", "Teclado", "Mouse", "Joypad"]
-	},
-	{
-		"pregunta": "¿Cuál de los siguientes es un periférico de salida?",
-		"opciones": ["Impresora", "Teclado", "Mouse", "Joypad"]
-	},
-	{
-		"pregunta": "¿Qué dispositivo se utiliza para la digitalización de imágenes y texto?",
-		"opciones": ["Escáner", "Joystick.", "Módem.", "Pantallas táctiles"]
-	},
-	{
-		"pregunta": "¿Como se llaman los puntos que componen la imagen de una fotografía digital?",
-		"opciones": ["Píxeles", "Puntos de resolución", "Puntos digitales", "Voxeles"]
-	},
-	{
-		"pregunta": "¿Qué es Windows?",
-		"opciones": ["Un sistema operativo", "Un editor de Imágenes", "Un utilitario", "Un Disco Rígido"]
-	},
-	{
-		"pregunta": "¿Que teclas de acceso rapido usamos para copiar un texto?",
-		"opciones": ["CTRL+C", "CTRL+V", "ALT+C", "SHIFT+V"]
-	},
-	{
-		"pregunta": "¿Cuál de los siguientes comandos o atajos de teclado puede utilizarse para cambiar a mayúsculas o minúsculas?",
-		"opciones": ["SHIFT + F3", "CONTROL+SHIFT+F3", "ALT + F3", "ALT+SHIFT+F3"]
-	},
-	{
-		"pregunta": "¿Cuál de estos sistemas operativos nunca vio la luz?",
-		"opciones": ["Windows 9", "10Q4OS 3", "BeOS", "Peppermint"]
-	},
-	{
-		"pregunta": "¿Como se  llama un conjunto de 8 bits?",
-		"opciones": ["byte", "butt", "byttes", "bitys"]
-	},
-	{
-		"pregunta": "¿Como se llama la parte fisica de un ordenador?",
-		"opciones": ["Hardware", "Firmaware", "Software", "Adware"]
-	},
-	{
-		"pregunta": "¿Cuál de los siguientes elementos forma parte del hardware de un computador?",
-		"opciones": ["Teclado", "Programas", "Sistema Operativo", "Archivos"]
-	},
-	{
-		"pregunta": "Si quieres participar en una clase virtual, ¿qué periféricos debes tener conectados a tu computador?",
-		"opciones": ["Microfono-Camara", "Impresora", "Unidad DVD-ROM", "USB"]
-	}
-]
+{
+	"FACIL":
+	[
+		{
+			"pregunta": "¿Que son las TICs?",
+			"opciones": ["Tecnologías de la Información y las Comunicaciones", "Todo lo Ilustrado Cambia", "Tecnología informática cambiante", "Teoria Informatica Cuántica"]
+		},
+		{
+			"pregunta": "¿Qué significa Wi-Fi?",
+			"opciones": ["Wireless fidelity", "Wiggly fibres", "wireless fings", "windex fiding"]
+		},
+		{
+			"pregunta": "¿Para qué sirve la Papelera de Reciclaje?",
+			"opciones": ["Para recuperar archivos borrados", "Para almacenar archivos temporales", "Para limpiar el sistema operativo", "Para hacer una limpieza del disco duro en una fecha programada"]
+		},
+		{
+			"pregunta": "¿Qué atajo de teclas usamos para cerrar una ventana en Windows?",
+			"opciones": ["Alt + F4", "Shift + F4", "Crtl + F4", "Ctrl + S"]
+		},
+		{
+			"pregunta": "¿Cuál de los siguientes es un periferico de entrada/salida?",
+			"opciones": ["Módem de Internet", "Teclado", "Impresora", "Escáner"]
+		},
+		{
+			"pregunta": "¿Cuál de los siguientes es un periférico de entrada?",
+			"opciones": ["Teclado", "Monitor", "Parlante", "Impresora"]
+		},
+		{
+			"pregunta": "¿Cuál de los siguientes es un periférico de entrada?",
+			"opciones": ["Mouse", "Monitor", "Parlante", "Impresora"]
+		},
+		{
+			"pregunta": "¿Cuál de los siguientes es un periférico de entrada?",
+			"opciones": ["Microfono", "Monitor", "Parlante", "Impresora"]
+		},
+		{
+			"pregunta": "¿Cuál de los siguientes es un periférico de salida?",
+			"opciones": ["Monitor", "Teclado", "Mouse", "Joypad"]
+		},
+		{
+			"pregunta": "¿Cuál de los siguientes es un periférico de salida?",
+			"opciones": ["Parlante", "Teclado", "Mouse", "Joypad"]
+		},
+		{
+			"pregunta": "¿Cuál de los siguientes es un periférico de salida?",
+			"opciones": ["Impresora", "Teclado", "Mouse", "Joypad"]
+		},
+		{
+			"pregunta": "¿Qué dispositivo se utiliza para la digitalización de imágenes y texto?",
+			"opciones": ["Escáner", "Joystick.", "Módem.", "Pantallas táctiles"]
+		},
+		{
+			"pregunta": "¿Como se llaman los puntos que componen la imagen de una fotografía digital?",
+			"opciones": ["Píxeles", "Puntos de resolución", "Puntos digitales", "Voxeles"]
+		},
+		{
+			"pregunta": "¿Qué es Windows?",
+			"opciones": ["Un sistema operativo", "Un editor de Imágenes", "Un utilitario", "Un Disco Rígido"]
+		},
+		{
+			"pregunta": "¿Que teclas de acceso rapido usamos para copiar un texto?",
+			"opciones": ["CTRL+C", "CTRL+V", "ALT+C", "SHIFT+V"]
+		},
+		{
+			"pregunta": "¿Cuál de los siguientes comandos o atajos de teclado puede utilizarse para cambiar a mayúsculas o minúsculas?",
+			"opciones": ["SHIFT + F3", "CONTROL+SHIFT+F3", "ALT + F3", "ALT+SHIFT+F3"]
+		},
+		{
+			"pregunta": "¿Cuál de estos sistemas operativos nunca vio la luz?",
+			"opciones": ["Windows 9", "10Q4OS 3", "BeOS", "Peppermint"]
+		},
+		{
+			"pregunta": "¿Como se  llama un conjunto de 8 bits?",
+			"opciones": ["byte", "butt", "byttes", "bitys"]
+		},
+		{
+			"pregunta": "¿Como se llama la parte fisica de un ordenador?",
+			"opciones": ["Hardware", "Firmaware", "Software", "Adware"]
+		},
+		{
+			"pregunta": "¿Cuál de los siguientes elementos forma parte del hardware de un computador?",
+			"opciones": ["Teclado", "Programas", "Sistema Operativo", "Archivos"]
+		},
+		{
+			"pregunta": "Si quieres participar en una clase virtual, ¿qué periféricos debes tener conectados a tu computador?",
+			"opciones": ["Microfono-Camara", "Impresora", "Unidad DVD-ROM", "USB"]
+		},
+		{
+			"pregunta": "¿Qué es el hardware de una computadora?",
+			"opciones": ["La parte fisica", "La parte lógica", "La encargada de administrar recursos", "La encargada de las redes"]
+		},
+		{
+			"pregunta": "Qué significan las siglas C.P.U",
+			"opciones": ["Central Processing Unit", "Central Partes de Unidades.", "Computación Para Uno", "ninguna de las anteriores"]
+		},
+		{
+			"pregunta": "¿Qué hace que la computadora sea buena?",
+			"opciones": ["Qué satisfaga las necesidades del usuario.", "Qué sea muy veloz", "Qué tenga el último sistema operativo", "Qué tenga mucha capacidad de disco duro."]
+		},
+		{
+			"pregunta": "¿Qué es una contraseña?",
+			"opciones": ["Una forma de autentificacion", "Una palabra cualquiera", "un sistema operativo", "ninguna de las anteriores"]
+		},
+	],
+	"MEDIO":
+	[
+		{
+			"pregunta": "¿A cuánto equivale 1GB?",
+			"opciones": ["1024MB", "1024TB", "1024kB","1024b"]
+		},
+		{
+			"pregunta": "¿Qué herramienta de Windows es ideal para transferir tus archivos a otro equipo?",
+			"opciones": ["Windows Easy Transfer", "Windows Defender", "Centro de Ayuda", "Restaurar a un punto anterior"]
+		},
+		{
+			"pregunta": "¿Qué es el Spam?",
+			"opciones": ["Es el envío de correo no solicitado", "Es un programa espía", "Es una marca de ordenador", "Es un virus informático"]
+		},
+		{
+			"pregunta": "¿Qué característica básica diferencia al CD del DVD?",
+			"opciones": ["Capacidad", "Tamaño", "Velocidad", "Uno es para video y otro para música"]
+		},
+		{
+			"pregunta": "¿cuál se puede catalogar como un dispositivo “wearable”?",
+			"opciones": ["reloj inteligete", "reproductor de musica", "consola de videojuegos", "Computador portatil"]
+		},
+		{
+			"pregunta": "¿Qué significa encriptar?",
+			"opciones": ["Significa proteger archivos expresando su contenido en un lenguaje cifrado", "Significa guardar los archivos comprimidos para que ocupen menos espacio", "Significa realizar copias de seguridad de archivos en tamaño reducido", "Significa guardar un archivo en la nube"]
+		},
+		{
+			"pregunta": "¿Qué necesitas para que tu computador realice varias tareas a la vez de de manera veloz?",
+			"opciones": ["opcion 1", "opcion 2", "opcion 3", "opcion 4"]
+		},
+		{
+			"pregunta": "¿Pegunta 2?",
+			"opciones": ["memoria RAM", "fuente de poder", "pantalla", "unidad de disco duro"]
+		},
+		{
+			"pregunta": "Para mejorar el rendimiento de tu computador al ejecutar un videojuego, debes instalar una tarjeta de:",
+			"opciones": ["tarjeta de video o grafica", "tarjeta de audio", "tarjeta de red", "tarjeta bluetooth"]
+		},
+		{
+			"pregunta": "Organizar, almacenar y transformar los datos en un ordenador¿qué componente lo realiza?",
+			"opciones": ["El microprocesador", "el disco duro", "la placa madre", "la tarjeta grafica"]
+		},
+		{
+			"pregunta": "Memoria donde esta guardada la configuracion de arranque",
+			"opciones": ["CMOS", "RAM", "BIOS", "CACHE"]
+		},
+		{
+			"pregunta": "¿Que sustancia se aplica sobre un procesador para facilitar la transmisión térmica con el cooler?",
+			"opciones": ["Pasta térmica", "Soluto de yodo", "Nitrógeno líquido", "Silicon liquido"]
+		},
+		{
+			"pregunta": "¿Qué significa Mhz?",
+			"opciones": ["Megahercios", "Microhercios", "Millihercios", "Macrohercios"]
+		},
+		{
+			"pregunta": "¿Cuál fue el primer navegador de la historia?",
+			"opciones": ["World Wide Web", "Netscape Navigator", "Internet Explorer", "Firefox"]
+		},
+		{
+			"pregunta": "¿Dónde se almacena la información del computador?",
+			"opciones": ["Disco duro", "Memoria RAM", "Memoria USB", "Tarjeta madre"]
+		},
+		{
+			"pregunta": "Bus en el cual los datos son enviados por bytes al mismo tiempo",
+			"opciones": ["Bus paralelo", "De conteo", "Bus de serie", "ninguna de las anteriores"]
+		},
+		{
+			"pregunta": "Existen dos clases de memorias conocidas como:",
+			"opciones": ["RAM, ROM", "RAM, USB", "CD/DV, USB", "RAM,CD/DV"]
+		},
+		{
+			"pregunta": "¿El disco duro sirve para??",
+			"opciones": ["Guardar información permanentemente.", "Guardar informacion temporalemente.", "Grabar cd's o dvd's", "Colocar disquetes."]
+		},
+		{
+			"pregunta": "Cuando hablamos de CPU no referimos a:",
+			"opciones": ["Unidad de procesamiento", "Al gabinete", "Al case", "A los archivos."]
+		},
+		{
+			"pregunta": "RAM es el acrónimo inglés de:",
+			"opciones": ["Random Access Memory", "Run Actual Memory", "Read Access Memory", "Row Activity Mem"]
+		},
+		{
+			"pregunta": "Se puede decir que el procesador es:",
+			"opciones": ["El cerebro del computador.", "El que mide el rendimiento del pc.", "El circuito más pequeño del computador", "Ninguna de las anteriores."]
+		},
+	],
+	"DIFICIL":
+	[
+		{
+			"pregunta": "¿Quien creo el wifi?",
+			"opciones": ["Hedy Lamarr", "  jorge Antheil ", "Louis Lumière", "Guillermo Marconi"]
+		},
+		{
+			"pregunta": "Placa Base también es denominada",
+			"opciones": ["Motherboard", "Tarjeta De Expansion", "Modem", "Ninguna de las anteriores."]
+		},
+		{
+			"pregunta": "Es un componente electrónico requerido para generar una señal de video que se manda a una pantalla de video por medio de un cable",
+			"opciones": ["Tarjeta De Video", "Tarjeta De Sonido", "Tarjeta Madre O Main Board", "Fuente De Poder"]
+		},
+		{
+			"pregunta": "¿Cuando se creo la primera contraseña digital?",
+			"opciones": ["1961", "2000", "1970", "1980"]
+		},
+		{
+			"pregunta": "¿Quien creo la primera contraseña digital?",
+			"opciones": ["Fernando Corbató", " Roberto Ancelotti ", "Louis Lumière", "Guillermo Marconi"]
+		},
+		{
+			"pregunta": "¿En qué año se desarrolló el lenguaje de programación C?",
+			"opciones": ["1972", "1969", "1968", "1970"]
+		},
+		{
+			"pregunta": "¿Como se llama el medio de codificación de texto en el que cada símbolo está representado por 16 bits?",
+			"opciones": ["UNICODE", "ASCII", "LZW", "STCOD"]
+		},
+		{
+			"pregunta": "¿A quién le debemos el diseño del primer ratón para ordenador?",
+			"opciones": ["Douglas Engelbart", "Charles Babbage", "Konrad Zus", "evan andriw"]
+		},
+		{
+			"pregunta": "¿Cuál de estos elementos es responsable de la administración y coordinación de actividades y la división de recursos del ordenador?",
+			"opciones": ["Sistema operativo", "RAM", "Placa base", "El microprocesador"]
+		},
+		{
+			"pregunta": "¿En que año se anuncio la primera unidad de disco duro de 1 GB?",
+			"opciones": ["1999", "1977", "1980", "1985"]
+		},
+		{
+			"pregunta": "Dispositivo metálico que se utiliza para mantener la temperatura del microprocesador en niveles óptimos:",
+			"opciones": ["Discipador de Calor", "Fuente de Poder", "Filtros de Refrigeración", "Ninguna de las demás opciones"]
+		},
+		{
+			"pregunta": "¿Quées un Disco Flexible?",
+			"opciones": ["es un dispositivo de almacenamiento de datos formado por una pieza circular de material magnético, fina y flexible", "Es una pieza circular que se puede doblar y no se rompe", "Es un dispositivo que almacena información para encender la computadora", "Ninguna de las anteriores."]
+		},
+	]
+}

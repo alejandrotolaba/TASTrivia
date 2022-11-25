@@ -1,57 +1,58 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://scripts/Info.gd" type="Script" id=1]
+[ext_resource path="res://assets/Background.svg" type="Texture" id=2]
+[ext_resource path="res://assets/MainTheme.tres" type="Theme" id=3]
 
 [node name="Info" type="Control"]
 anchor_right = 1.0
 anchor_bottom = 1.0
+theme = ExtResource( 3 )
 script = ExtResource( 1 )
+
+[node name="Background" type="TextureRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+texture = ExtResource( 2 )
+expand = true
 
 [node name="VBoxContainer" type="VBoxContainer" parent="."]
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_left = 20.0
-margin_top = 20.0
-margin_right = -20.0
-margin_bottom = -20.0
+margin_left = 50.0
+margin_top = 50.0
+margin_right = -50.0
+margin_bottom = -50.0
 custom_constants/separation = 20
 
 [node name="Label" type="Label" parent="VBoxContainer"]
-margin_right = 320.0
-margin_bottom = 14.0
+margin_right = 260.0
+margin_bottom = 21.0
 text = "TAS Trivia"
 align = 1
 valign = 1
 
 [node name="RichTextLabel" type="RichTextLabel" parent="VBoxContainer"]
-margin_top = 34.0
-margin_right = 320.0
-margin_bottom = 560.0
+margin_top = 41.0
+margin_right = 260.0
+margin_bottom = 489.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 bbcode_enabled = true
 bbcode_text = "[center]
 Juego creado por alumnos de 1° Año de la Tecnicatura Superior En Análisis de Sistemas (S.D. Coronel Moldes - Salta)
-
 [color=#888]
 \\== .\\m/  ==/
 [/color]
-
-Programacion y diseño:
-[color=#0a0]Alejandro Tolaba[/color]
-
-Preguntas:
-[color=#0a0]Fabiola Guerrero
-Nahuel Apaza[/color]
-
-Ilustraciones:
-[color=#0a0]Fabiola Guerrero
-Melina Chaile[/color]
-
+[color=#0a0]
+Apaza Nahuel
+Chaile Melina
+Guerrero Fabiola
+Tolaba Alejandro
+[/color]
 [color=#888]
 \\== .\\m/  ==/
 [/color]
-
 Puedes encontrar el proyecto en GitHub:
 [color=#0a0]
 [url=https://github.com/Dks32/TASTrivia]TASTrivia[/url]
@@ -61,24 +62,16 @@ Puedes encontrar el proyecto en GitHub:
 text = "
 Juego creado por alumnos de 1° Año de la Tecnicatura Superior En Análisis de Sistemas (S.D. Coronel Moldes - Salta)
 
-
 \\== .\\m/  ==/
 
 
-Programacion y diseño:
-Alejandro Tolaba
-
-Preguntas:
-Fabiola Guerrero
-Nahuel Apaza
-
-Ilustraciones:
-Fabiola Guerrero
-Melina Chaile
+Apaza Nahuel
+Chaile Melina
+Guerrero Fabiola
+Tolaba Alejandro
 
 
 \\== .\\m/  ==/
-
 
 Puedes encontrar el proyecto en GitHub:
 
@@ -88,9 +81,9 @@ TASTrivia
 "
 
 [node name="Button" type="Button" parent="VBoxContainer"]
-margin_top = 580.0
-margin_right = 320.0
-margin_bottom = 600.0
+margin_top = 509.0
+margin_right = 260.0
+margin_bottom = 540.0
 text = "Volver"
 
 [connection signal="meta_clicked" from="VBoxContainer/RichTextLabel" to="." method="_on_RichTextLabel_meta_clicked"]
